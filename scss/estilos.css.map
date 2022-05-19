@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "estilos.scss",
+        "parciales/index.scss",
+        "parciales/_productos.scss",
+        "parciales/companiabts.scss",
+        "parciales/suscribite.scss",
+        "parciales/ayuda.scss",
+        "parciales/mediaqueries.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}
