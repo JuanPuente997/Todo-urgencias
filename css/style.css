@@ -299,6 +299,31 @@ justify-content: center;
     background-color: rgba(18, 16, 16, 20%);
     display: block;
 }
+/*Pagina de prueba para suplantar a la de compania*/
+.booststraptitulo{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: 0;
+    margin: 1rem;
+
+}
+.parrafosbootstrap{
+    margin-bottom: 0;
+    
+}
+.subtitulobootstrap{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.imagenbootstrap{
+    margin: 1rem;
+}
+.linkbootstrap{
+    text-decoration: none;
+    color: grey;
+}
+
 /*comienza pagina suscribite*/
 .subtitulosuscribite{
     font-size: 45px;
@@ -590,6 +615,37 @@ animation: text-shadow-pop-bottom 0.6s both;
 .mail{
     font-size: 20px;
 }
+
+/*compania bootstrap prueba responsive*/
+.imagenbootstrap{
+width: 250px;
+height: 260px;
+
+}
+.booststraptitulo{
+    font-size: 50px;
+}
+.imagenbootstrap{
+    padding-left: 0;
+    padding-right: 0;
+}
+.titulofooterbootstrap{
+    margin:0;
+    margin-top: 1rem;
+    margin-bottom: 0,5rem;
+    font-size: 15px;
+    text-align: center;
+}
+.footerbootstrap{
+    margin-bottom: 0;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.linkbootstrap{
+    color: orangered;
+}
+
 /*suscribite responsive*/
 .subtitulosuscribite{
     font-size: 30px;
