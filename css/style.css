@@ -362,6 +362,34 @@ justify-content: center;
     height: 20px;
 
 }
+/*Suscribite bootstrap */
+.suscribitebootstrap{
+    text-align: center;
+    margin-bottom: 0;
+}
+.h3suscribite{
+ margin-bottom: 0;
+ text-align: center;
+}
+.row{
+    margin: 1rem;
+}
+.footerbts{
+    text-align: center;
+}
+.beneficiossuscribite{
+text-align: center;
+font-size: 50px;
+}
+.subtitulosbeneficios{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.parrafossuscribite{
+    margin-bottom: 0;
+}
+
 
 /* .buttonsuscribite{
     transform:translate(735px) ;
@@ -646,9 +674,27 @@ height: 260px;
     color: orangered;
 }
 
+/*Suscribite bootstrap responsive*/
+
+
+
 /*suscribite responsive*/
 .subtitulosuscribite{
-    font-size: 30px;
+    font-size: 20px;
+}
+/*suscribite bootstrap responsive*/
+.beneficiossuscribite{
+    margin-bottom: 0;
+}
+.subtitulosbeneficios{
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.suscribitebootstrap{
+    font-size: 50px;
+}
+.h3suscribite{
+    font-size: 20px;
 }
 /*ayuda responsive*/
 
