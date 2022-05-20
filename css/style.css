@@ -428,6 +428,59 @@ font-size: 50px;
     border: 5px solid;
     border-radius: 30px;
 }
+/*Prueba pagina ayuda con bootstrap*/
+.titlayudabts{
+margin-bottom: 0;
+text-align: center;
+
+}
+.subt1ayudabts{
+    margin-bottom: 0;
+    margin-bottom: 0;
+    text-align: center;
+
+    padding: 1rem;
+    margin: 1rem;
+}
+.txtayudabts{
+    width:  0;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+}
+.h5contactobts{
+    margin-bottom: 0;
+}
+.wspayudabts{
+    text-decoration: none;
+    color: green;
+}
+.prodayudabts{
+    text-decoration: none;
+    color: orangered;
+}
+.mpayudabts{
+    font-size: 1,75rem;
+margin-bottom: 0;
+padding: 1rem;
+text-align: center;
+margin:1rem;
+}
+.txtmpayudabts{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
 .text-shadow-pop-bottom:hover {
 -webkit-animation: text-shadow-pop-bottom 0.6s both;
 animation: text-shadow-pop-bottom 0.6s both;
