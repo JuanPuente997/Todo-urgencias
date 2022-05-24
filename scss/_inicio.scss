@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -7,11 +8,13 @@ body{
     font-family: 'Merriweather', serif;
     /* background-image: url(../imagenes/header5.jpg); */
     /*background-color: rgba(119, 128, 161, 55%);*/
-    background-color: rgba(18, 16, 16, 20%)
+    background-color: $color-principal;
+    
+    
     
 }
 .navbarclass{
-     background-color: rgba(18, 16, 16, 20%) 
+     background-color: $color-principal; 
 }
 
 /*ul*/
@@ -141,7 +144,7 @@ justify-content: center;
     height: 75px;   
 }
 .piedepagina{
-    background-color: rgba(18, 16, 16, 20%);
+    background-color: $color-principal;
     text-align: center;
     font-size: small;
     transform: translatey(32px);
