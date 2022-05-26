@@ -332,6 +332,8 @@ body {
 
 .parrafosbootstrap {
   margin-bottom: 0;
+  text-decoration: none;
+  
 }
 
 .subtitulobootstrap {
@@ -355,6 +357,10 @@ body {
 .footerbootstrap {
   margin-bottom: 0;
 }
+.redescompania{
+  text-decoration: none;
+}
+
 
 /*comienza pagina suscribite*/
 .subtitulosuscribite {
@@ -363,9 +369,7 @@ body {
   /* background-color: rgba(119, 128, 161, 55%); */
 }
 
-.suscribitemain {
-  max-height: 300px;
-}
+
 
 .compodesuscripcion1 {
   display: flex;
@@ -496,7 +500,9 @@ body {
   width: 100%;
   grid-template-columns: 30% 30% 30%;
   grid-template-rows: 100px 100px 100px;
-  grid-template-areas: "ele1 ele2 ele2" "ele1 ele3 ele5" "ele1 ele3 ele5";
+  grid-template-areas: "ele1 ele2 ele2"
+ "ele1 ele3 ele5"
+ "ele1 ele3 ele5";
 }
 
 .text-shadow-pop-bottom:hover {
