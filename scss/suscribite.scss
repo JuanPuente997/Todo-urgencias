@@ -48,6 +48,10 @@
 }
 .row{
     margin: 1rem;
+    &--enviar{
+        @extend.row;
+        background-color: green;
+        }
 }
 .footerbts{
     text-align: center;
@@ -64,9 +68,3 @@ font-size: 50px;
 .parrafossuscribite{
     margin-bottom: 0;
 }
-
-
-/* .buttonsuscribite{
-    transform:translate(735px) ;
-    font-size: 15px;
-}  */

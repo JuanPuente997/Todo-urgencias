@@ -1,0 +1,63 @@
+
+.subtituloayuda {
+    font-size: 75px;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 5px solid;
+    border-radius: 30px;
+  }
+  
+  .preguntasfrecuentes {
+    font-size: 50px;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 5px solid;
+    border-radius: 30px;
+  }
+  
+  .rangodecobertura {
+    font-size: 25px;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 5px solid;
+    border-radius: 30px;
+  }
+  
+  .contactoayuda {
+    font-size: 30px;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 5px solid;
+    border-radius: 30px;
+  }
+  
+  .footer{
+    min-height: 300px;
+    text-align: center;
+  }
+  
+  /*maps*/
+  $ayuda: (
+  twitter: lightblue,
+  facebook:  blue,
+  instagram: red,
+  whatsapp:  green,
+  );
+  @each $clave, $valor in $ayuda {
+    .btn-#{$clave}{
+      background-color: $valor;
+    }
+    
+  }
+  @mixin cajas ($width, $height){
+  height: $height;
+  width: $width;    
+  }
+  .box-small{
+    @include cajas(100px, 100px)
+  }
+  

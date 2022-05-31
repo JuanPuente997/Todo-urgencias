@@ -1,0 +1,63 @@
+.subtituloayuda {
+  font-size: 75px;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid;
+  border-radius: 30px;
+}
+
+.preguntasfrecuentes {
+  font-size: 50px;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid;
+  border-radius: 30px;
+}
+
+.rangodecobertura {
+  font-size: 25px;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid;
+  border-radius: 30px;
+}
+
+.contactoayuda {
+  font-size: 30px;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+  border: 5px solid;
+  border-radius: 30px;
+}
+
+.footer {
+  min-height: 300px;
+  text-align: center;
+}
+
+/*maps*/
+.btn-twitter {
+  background-color: lightblue;
+}
+
+.btn-facebook {
+  background-color: blue;
+}
+
+.btn-instagram {
+  background-color: red;
+}
+
+.btn-whatsapp {
+  background-color: green;
+}
+
+.box-small {
+  height: 100px;
+  width: 100px;
+}
+/*# sourceMappingURL=ayuda.css.map */
